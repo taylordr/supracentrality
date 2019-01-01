@@ -1,2 +1,2 @@
 # Supracentrality
-Eigenvector centrality for Multilayer, Multiplex and Temporal Networks
+Centrality Analyses for Multilayer, Multiplex and Temporal Networks
