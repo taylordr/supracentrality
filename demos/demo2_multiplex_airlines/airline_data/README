@@ -1,0 +1,153 @@
+@@@@@@@@@@@@@@@@@@@@@@@
+@
+@   DATA DISCLAIMER
+@
+@@@@@@@@@@@@@@@@@@@@@@@
+
+Data is provided "as is" and without warranties as to performance or quality or any other warranties whether expressed or implied. By using this data set, you agree not to perform reverse engineering to extract airlines, airport names, or any other information, and not to perform comparative studies about the performance of different air transport actors.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@
+@  HOW TO USE THE DATA OF MULTILAYER EUROPEAN AIRLINE NETWORK
+@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Version 1.0 -- Copyleft 2013 Alessio Cardillo, Jesus Gomez-Gardenes and Massimiliano Zanin
+
+@@@@@@@@@@@@@@@
+@   FOREWORD
+@@@@@@@@@@@@@@@
+
+This dataset is exactly the complete set used in the paper: "Emergence of network features from multiplexity" by Cardillo et al. appeared on the magazine Scientific Reports (nature open access), number 3 in 2013. It contains the structure of a multilayer network composed by thirty-seven different layers each one corresponding to a different airline operating in Europe.
+
+After unpacking the .zip archive you will find three files:
+
+1) network.txt (the files containing the network)
+2) airports.txt (the files containing information about the nodes, i.e. the airports)
+3) README (the file containing the instruction on how to use the data contained in the two files above)
+
+More details about this dataset can be found in the paper: 
+
+Cardillo A. et al. "Emergence of network features from multiplexity", Scientific Reports 3, 1344 (2013).
+
+
+
+@@@@@@@@@@@@@@@
+@   AIRPORTS
+@@@@@@@@@@@@@@@
+
+The file airports.txt is made of four columns structured as follows:
+
+  A  |  B  |  C  |  D  
+
+Where:
+
+A --> is the node ID of the airport (note: IDs start from 1).
+B --> is the ICAO (International Civil Aviation Organization) location indicator which identifies the airport.
+C --> is the airport longitude expressed in degrees with respect to the Greenwich meridian. 
+D --> is the airport latitude expressed in degrees with respect to the Equator.
+
+Example:
+
+107     LICC    15.063889       37.466667
+
+
+@@@@@@@@@@@@@@
+@   NETWORK
+@@@@@@@@@@@@@@
+
+The file network.txt contains the structure of the multilayer system as a whole. The system is composed of thirty-seven different layers where nodes have the same ID on every layer. The network is undirected and unweighted.
+
+The layers provided with this dataset corresponds to the following airlines (in order of appearance):
+
+1  -- Lufthansa
+2  -- Ryanair
+3  -- Easyjet
+4  -- British Airways
+5  -- Turkish Airlines
+6  -- Air Berlin
+7  -- Air France
+8  -- Scandinavian Airlines
+9  -- KLM
+10 -- Alitalia
+11 -- Swiss International Air Lines
+12 -- Iberia
+13 -- Norwegian Air Shuttle
+14 -- Austrian Airlines
+15 -- Flybe
+16 -- Wizz Air
+17 -- TAP Portugal
+18 -- Brussels Airlines
+19 -- Finnair
+20 -- LOT Polish Airlines
+21 -- Vueling Airlines
+22 -- Air Nostrum
+23 -- Air Lingus
+24 -- Germanwings
+25 -- Pegasus Airlines
+26 -- Netjets
+27 -- Transavia Holland
+28 -- Niki
+29 -- SunExpress
+30 -- Aegean Airlines
+31 -- Czech Airlines
+32 -- European Air Transport
+33 -- Malev Hungarian Airlines
+34 -- Air Baltic
+35 -- Wideroe
+36 -- TNT Airways
+37 -- Olympic Air
+
+
+The structure of a single layer is the following:
+
+XXX
+
+A  A1  YYY
+.
+.
+.
+Z  Z1  YYY
+
+Where:
+
+XXX --> Number of nodes "active" in that layer.
+A   --> ID of node.
+A1  --> Number of neighbours of node A (i.e. its degree).
+YYY --> IDs of the neighbours of node A ordered by increasing ID.
+(for the Z case is the same as above).
+
+Example (two layers each one composed of a star network with 5 nodes):
+
+5
+
+1	4	2	3 	4 	5
+2	1	1
+3	1	1
+4	1	1
+5	1	1
+
+5
+
+4	4	5	6	7	8
+5	1	4
+6	1	4
+7	1	4
+8	1	4
+
+
+@@@@@@@@@@@@@@@@
+@   LICENSING
+@@@@@@@@@@@@@@@@
+
+Copyright (C)  2013  Cardillo, Gomez-Gardenes and Zanin.
+    Permission is granted to copy, distribute and/or modify this document
+    under the terms of the GNU Free Documentation License, Version 1.3
+    or any later version published by the Free Software Foundation;
+    with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+    A copy of the license is included in the section entitled "GNU
+    Free Documentation License".
+
+@@@@@ END OF README @@@@@
+
