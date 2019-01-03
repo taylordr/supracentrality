@@ -1,1 +1,2 @@
-# Supracentrality - Centrality Analysis for Multilayer, Multiplex and Temporal Networks
+# Supracentrality 
+## Centrality Analysis for Multilayer, Multiplex and Temporal Networks
