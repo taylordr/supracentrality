@@ -3,7 +3,7 @@
 
 This code implements the supracentrality framework described in publications:
 
-[1] D Taylor, MA Porter and PJ Mucha (2019) "Topology of interlayer coupling tunes eigenvector-based centrality measures for multiplex and temporal networks." arXiv preprint available at XXXXXXX.
+[1] D Taylor, MA Porter and PJ Mucha (2019) "Topology of interlayer coupling tunes eigenvector-based centralities for multiplex and temporal networks." arXiv preprint available at XXXXXXX.
 
 and
 
