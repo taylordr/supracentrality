@@ -3,7 +3,7 @@
 
 This code implements the supracentrality framework described in the paper
 
-D Taylor, MA Porter and PJ Mucha (2019) "Eigenvector-based centralities for multiplex and temporal networks are tuned by the topology of interlayer coupling." arXiv preprint available at XXXXXXX.
+D Taylor, MA Porter and PJ Mucha (2019) "Tunable eigenvector-based centralities for multiplex and temporal networks." arXiv preprint available at https://arxiv.org/abs/1904.02059.
 
 There are 3 demos that reproduce the results in paper. 
 
