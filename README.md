@@ -12,3 +12,4 @@ See also:
 D Taylor, SA Myers, A Clauset, MA Porter and PJ Mucha (2017) "Eigenvector-based centrality measures for temporal networks." Multiscale Modeling and Simulation 15(1), 537-574.
 
 
+PS -- Python code available upon request.
