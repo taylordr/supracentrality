@@ -14,6 +14,6 @@ The supracentrality framework is also described in
 
 The results shown in [2] and [3] were created using Matlab code. 
 
-To see the code for [2], view matlab_code branch of this repository: https://github.com/taylordr/supracentrality/tree/matlab_code
+To see the code for [2], go to the 'matlab_code' branch of this repository: https://github.com/taylordr/supracentrality/tree/matlab_code
 
 To see the code for [3], go to https://github.com/taylordr/Temporal_Eigenvector_Centrality
