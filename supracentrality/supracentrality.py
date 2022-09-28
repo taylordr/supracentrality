@@ -31,6 +31,12 @@ def directed_chain(T,gamma):
     for t in range(1,T):
         At[t-1,t] = 1        
     At = At + gamma*np.ones((T,T))
+    
+    # note that this implements the directed chain by Eq. (2) in https://arxiv.org/pdf/1906.06366.pdf 
+    # which is different than the directed chain defined by Eq. (5.1) in https://arxiv.org/pdf/1904.02059.pdf.
+    # the other direction chain can be created by replacing line 32 by 
+    #    At[t-1,t] = 1  - gamma
+    
     return At
 
 
